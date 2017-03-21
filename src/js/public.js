@@ -1,0 +1,1 @@
+$(function(){var n=$("#nav a");n.on("click",function(n){n.preventDefault(),n.stopPropagation(),$(this).tab("show")}),n.on("show.bs.tab",function(){var n="";n=$(this).attr("infor"),4==n?window.location.href="index_PC_qdzx.html":3==n?window.location.href="index_PC_jczs.html":2==n?window.location.href="index_PC_fyxk.html":1==n&&(window.location.href="index_PC_xzyj.html")})});
